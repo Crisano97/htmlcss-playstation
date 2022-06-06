@@ -25,3 +25,15 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+@media all and (min-width: 768px) {
+
+    .m_col_md_5 {
+        flex-basis: calc(100% / 5 - 50px);
+        max-width: calc(100% / 5);
+    }
+
+    .s_b {
+        justify-content: space-between;
+    }
+}
