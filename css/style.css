@@ -26,10 +26,14 @@
     font-weight: bold;
 }
 
+.col_img {
+    width: 50%;
+}
+
 @media all and (min-width: 768px) {
 
     .m_col_md_5 {
-        flex-basis: calc(100% / 5 - 50px);
+        flex-basis: calc(100% / 5);
         max-width: calc(100% / 5);
     }
 
