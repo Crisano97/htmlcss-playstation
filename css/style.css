@@ -26,9 +26,7 @@
     font-weight: bold;
 }
 
-.col_img {
-    width: 50%;
-}
+
 
 @media all and (min-width: 768px) {
 
@@ -40,4 +38,18 @@
     .s_b {
         justify-content: space-between;
     }
+    .col_img {
+        width: 50%;
+    }
+}
+
+.hero {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center ;
+    background-size: cover;
+    height: 80vh;
+}
+
+.title {
+    color: white;
 }
