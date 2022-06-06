@@ -1,7 +1,27 @@
-.m_img {
+.m_logo {
     width: 50px;
 }
 
 .m_btn {
     border-radius: 20px;
+}
+
+.m_cnt_1 {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center ;
+    background-size: cover;
+    height: 80vh;
+}
+
+.m_img {
+    width: 300px;
+}
+
+.m_t_fs {
+    font-size: 40px;
+}
+
+.m_c_fs {
+    font-size: 15px;
+    font-weight: bold;
 }
