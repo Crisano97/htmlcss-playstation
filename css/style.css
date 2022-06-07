@@ -1,3 +1,7 @@
+header {
+    position: fixed;width: 100%;
+}
+
 .m_logo {
     width: 50px;
 }
@@ -33,6 +37,10 @@
 .m_a_c {
     color: blue;
     list-style-type: initial;
+}
+
+main {
+    padding-top: 100px;
 }
 
 @media all and (min-width: 768px) {
@@ -104,6 +112,10 @@
         width: 50%;
         margin: 0 auto;
     }
+
+    .m_nav_container {
+        width: 35%;
+    }
 }
 footer ul {
     list-style: none;
@@ -129,3 +141,34 @@ footer ul a {
     border: 0;
     border-radius: 0;
 }
+
+.m_b_c {
+    position: relative;
+}
+
+.borders {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    border: 5px solid grey;
+    border-radius: 5px;
+    display: none;
+}
+
+.borders:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 5px solid #ffea00;
+    border-radius: 5px;
+  }
+
+  .m_b_c:hover .borders{
+      display: block;
+  }
+
