@@ -178,6 +178,7 @@ footer ul a {
   } */
 
   .p_img {
+      padding: 5px;
       background-color: white;
   }
 .m_border:hover {
