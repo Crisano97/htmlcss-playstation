@@ -62,6 +62,10 @@
     background-color: #161C3B;
 }
 
+.m_bg-3 {
+    background-color: #00439C;
+}
+
 .ms_container {
     width: 60%;
     margin: 0 auto;
@@ -89,4 +93,17 @@
         width: 50%;
         margin: 0 auto;
     }
+}
+footer ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.img_w {
+    width: 100px;
 }
