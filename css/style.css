@@ -57,3 +57,36 @@
 .m_bg {
     background-color: #BEBCBB;
 }
+
+.m_bg-2 {
+    background-color: #161C3B;
+}
+
+.ms_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
+
+    .mw_container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 992px) {
+
+    .mw_container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .mw_container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
