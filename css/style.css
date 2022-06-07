@@ -193,4 +193,13 @@ footer ul a {
     box-shadow: inset 0px 0px 0px 3px #0d6efd ;
 }
 
+.b_o {
+    border-bottom: 2px solid white;
+    opacity: 0.5;
+}
+
+.b_o:hover {
+    border-bottom: 2px solid #0d6efd;
+    opacity: 1;
+}
 
