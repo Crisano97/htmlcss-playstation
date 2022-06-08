@@ -4,6 +4,10 @@ header {
     z-index: 3;
 }
 
+.c_g {
+    color: gray;
+}
+
 .m_logo {
     width: 50px;
 }
@@ -18,10 +22,10 @@ header {
     background-size: cover;
     height: 80vh;
 }
-
+/* 
 .m_img {
     width: 300px;
-}
+} */
 
 .m_t_fs {
     font-size: 40px;
@@ -68,13 +72,17 @@ main {
 
 .hero {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center ;
+    background-position: center;
     background-size: cover;
     height: 80vh;
 }
 
 .title {
     color: white;
+}
+
+.m_fs {
+    font-size: 40px;
 }
 
 .m_bg {
@@ -103,6 +111,10 @@ footer ul {
 footer ul a {
     color: white;
     text-decoration: none;
+}
+
+.fa-copyright {
+    font-size: 13px;
 }
 
 .img_w {
@@ -181,4 +193,5 @@ footer ul a {
     border-bottom: 2px solid #0d6efd;
     opacity: 1;
 }
+
 
