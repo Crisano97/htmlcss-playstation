@@ -1,5 +1,7 @@
 header {
-    position: fixed;width: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 .m_logo {
@@ -34,9 +36,15 @@ header {
     width: 50px;
 }
 
-.m_a_c {
+header nav .m_ul {
+    display: flex;
+    justify-content: center;
     color: blue;
     list-style-type: initial;
+}
+
+.m_ul a {
+    padding: 0;
 }
 
 main {
@@ -86,37 +94,7 @@ main {
     margin: 0 auto;
 }
 
-@media all and (min-width: 768px) {
 
-    .mw_container {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-@media all and (min-width: 992px) {
-
-    .mw_container {
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    .m_nav_container {
-        width: 50%;
-    }
-}
-
-@media all and (min-width: 1200px) {
-
-    .mw_container {
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .m_nav_container {
-        width: 35%;
-    }
-}
 footer ul {
     list-style: none;
     line-height: 40px;
